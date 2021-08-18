@@ -154,7 +154,4 @@
   <ItemGroup>
     <ResourceCompile Include="Lambda.rc" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="dummy.txt" />
-  </ItemGroup>
 </Project>

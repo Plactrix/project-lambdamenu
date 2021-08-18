@@ -75,9 +75,6 @@
   <ItemGroup>
     <ResourceCompile Include="Lambda.rc" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="dummy.txt" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8D82F34A-1D64-465B-84B1-37F89AD3D20B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
