@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -44,6 +44,7 @@
   <ItemGroup>
     <ClInclude Include="colors.h" />
     <ClInclude Include="inc\enums.h" />
+    <ClInclude Include="inc\natives.h" />
     <ClInclude Include="noclip.h" />
     <ClInclude Include="anims.h" />
     <ClInclude Include="config_io.h" />
@@ -72,14 +73,14 @@
     </Xml>
   </ItemGroup>
   <ItemGroup>
-    <None Include="cpp.hint" />
+    <ResourceCompile Include="Lambda.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8D82F34A-1D64-465B-84B1-37F89AD3D20B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MultiFiveMenu</RootNamespace>
     <ProjectName>LambdaMenu</ProjectName>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -110,6 +111,9 @@
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
@@ -245,6 +249,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>lib\ScriptHookV.lib;msxml6.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ResourceCompile />
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

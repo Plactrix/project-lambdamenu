@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="anims.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="colors.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="config_io.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="database_kvs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="database_sqlite.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="debuglog.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="io.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Scripthook</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_functions.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="noclip.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="paintmenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="skins.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="teleportation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicles.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vehmodmenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\sqlite3\sqlite3.c">
+      <Filter>Libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anims.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="config_io.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="debuglog.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="io.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Scripthook</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\enums.h">
+      <Filter>Scripthook</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_functions.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="noclip.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="teleportation.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Scripthook</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicles.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sqlite3\sqlite3.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sqlite3\sqlite3ext.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\main.h">
+      <Filter>Scripthook</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\nativeCaller.h">
+      <Filter>Scripthook</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\natives.h">
+      <Filter>Scripthook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scripthook">
+      <UniqueIdentifier>{5d40e36c-ae09-4260-81f5-8ca0d7ae5aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d54cfe99-364a-46aa-8af2-73ea565687db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{80919969-5eb2-463f-b8bc-2e3f9f52fea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{d0038bdf-8873-4ea2-827a-ddaff8f6d52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{62b69633-82a4-46f8-9bb7-78be1cec1a82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\ScriptHookV.lib">
+      <Filter>Scripthook</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="lm-config.xml">
+      <Filter>Config</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lambda.rc" />
+  </ItemGroup>
+</Project>
